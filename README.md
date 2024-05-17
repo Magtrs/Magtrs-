@@ -1,4 +1,2 @@
-git add .
-git commit -m "Initial commit"
-git push origin main
-# Magtrs-
+#Magtrs-
+#pazinterior1.html
