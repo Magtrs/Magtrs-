@@ -5,9 +5,9 @@
    <title>Diario de Emociones</title>
    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: white; color: blue; font-family: Arial, sans-serif;">
+<body style="background-color: white; color: #007BFF; font-family: Arial, sans-serif;">
     <header style="background-color:
-blue; color: white; padding: 10px;">
+#007BFF; color: white; padding: 10px;">
         <h1 style="margin: 0;">Diario de Emociones</h1>
         <nav>
             <ul style="list-style: none;
@@ -17,15 +17,15 @@ padding: 0; margin: 0;">
         </nav>
     </header>
 
-    <main>
+    <main style="padding: 20px;">
         <form id="diarioForm">
            <label for="fecha">Fecha:</label>
-           <input type="date" id="fecha" name="fecha" required<br>
+           <input type="date" id="fecha" name="fecha" required style="margin-bottom: 10px;"><br>
            <label for="emocion">Emocion:</label>
-           <input type="text" id="emocion" name="emocion" required><br>
+           <input type="text" id="emocion" name="emocion" required style="margin-bottom: 10px;"><br>
            <label for="descripcion">Descripcion:</label>
-           <textarea id="descripcion" name="descripcion" cols="100" rows="25" required></textarea><br>
-          <button type="submit">Guardar</button>
+           <textarea id="descripcion" name="descripcion" cols="100" rows="25" required style="margin-bottom: 10px;"></textarea><br>
+          <button type="submit" style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; cursor: pointer;">Guardar</button>
          </form>
          <div id="registros"></div>
      </main>
